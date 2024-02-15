@@ -1,0 +1,24 @@
+//create git backup file and folder
+git init
+
+// for backup
+git add filename
+
+//for file status check
+git status
+
+//save backup
+git commit -m "backup msg"
+
+//reset file 
+git checkout filename
+
+// php server run 
+php -S localhost:8000 -t .
+
+// check path
+git remote -v
+
+//for new branch
+git checkout -b branch name
+
